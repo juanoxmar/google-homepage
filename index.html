@@ -2,23 +2,54 @@
 <link href="style.css" rel="stylesheet">
 <html>
   <body>
+    <nav>
+      <div class="left-nav">
+        <div class="nav-items">
+          <a href="https://about.google/">About</a>
+        </div>
+        <div class="nav-items">
+          <a href="https://store.google.com">Store</a>
+        </div>
+      </div>
+      <div class="right-nav">
+        <div class="nav-items">
+          <a href="https://mail.google.com">Gmail</a>
+        </div>
+        <div class="nav-items">
+          <a href="https://www.google.com/imghp">Images</a>
+        </div>
+        <div class="nav-items">
+          <img src="https://ssl.gstatic.com/gb/images/i1_1967ca6a.png" class="crop">
+        </div>
+        <div class="nav-items">
+          <a href="https://accounts.google.com"><img src="https://lh3.googleusercontent.com/ogw/ADGmqu9_QRJ4cPXEd4wwUoaSongbFj2urObd8w2c8xow=s32-c-mo" class="img-rad"></a>
+        </div>
+      </div>
+    </nav>
     <div class="container">
       <div class="logo">
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
       </div>
       <section>
-        <div class="icon">
-          <span class="ico ico-mglass"></span>
-        </div>
-        <form class="f-width">
-          <input type="text" class="search">
+        <form>
+          <div class="search-bar">
+            <div class="icon">
+              <span class="ico ico-mglass"></span>
+            </div>
+            <div class="f-width">
+              <input type="text" class="search">
+            </div>
+          </div>
+          <div class="button-layout">
+            <div>
+              <input type="submit" value="Google Search" class="button">
+            </div>
+            <div>
+              <input type="button" value="I'm Feeling Lucky" class="button">
+            </div>
+          </div>
         </form>
       </section>
-      <div>
-        <form>
-          <input type="submit" value="Google Search">
-        </form>
-      </div>
     </div>
   </body>
 </html>
